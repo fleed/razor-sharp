@@ -1,0 +1,25 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "outputName": "razor-sharp",
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "Serilog.Sinks.Literate": "2.0.0",
+    "Serilog.Sinks.Seq": "2.0.0",
+    "Serilog.Settings.Configuration": "2.0.0",
+    "Microsoft.Extensions.Configuration.Json":  "1.0.0",
+    "RazorSharp.Core": { "target": "project" }
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [ "dnxcore50", "portable-net45+win8+wp8+wpa81" ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RazorSharp": {
+      "commandName": "Project",
+      "commandLineArgs": "\"D:\\sandbox\\razor-sharp\\test.json\""
+    }
+  }
+}
